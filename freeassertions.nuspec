@@ -1,0 +1,22 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>FreeAssertions</id>
+        <version>$version$</version>
+        <authors>riezebosch</authors>
+        <owners>riezebosch</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectUrl>https://github.com/riezebosch/freeassertions#readme</projectUrl>
+        <description>
+            This is a meta package to lock FluentAssertions to version 7.x due to licensing concerns in later versions. This ensures you remain on a free and open-source version.
+        </description>
+        <license type="expression">MIT</license>
+        <tags>fluentassertions free meta-package</tags>
+        <dependencies>
+            <dependency id="FluentAssertions" version="[$version$, 8.0.0)" />
+        </dependencies>
+        <readme>README.md</readme>
+    </metadata>
+    <files>
+        <file src="README.md" target="" />
+    </files>
+</package>
